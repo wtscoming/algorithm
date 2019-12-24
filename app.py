@@ -1,6 +1,5 @@
-import my_package.Fraction as f
+from tests.pair_check import any_pair_check
 
 if __name__ == '__main__':
-    f1 = f.Fraction(1, 2)
-    f2 = f.Fraction(1, 4)
-    print(f1 + f2)
+    symbol_string = input()
+    print(any_pair_check(symbol_string))
