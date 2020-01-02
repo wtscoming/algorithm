@@ -6,5 +6,5 @@ def read_ints():
 
 if __name__ == '__main__':
     alist = [5, 4, 3, 2, 1]
-    blist = Sort.bubble_sort(alist)
+    blist = Sort.quick_sort(alist)
     print(blist)
